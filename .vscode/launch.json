@@ -1,0 +1,175 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - foreachEx",
+            "request": "launch",
+            "mainClass": "foreachEx",
+            "projectName": "Bambol_7946399e"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ForSample",
+            "request": "launch",
+            "mainClass": "ForSample",
+            "projectName": "Bambol_7946399e"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - java2_4",
+            "request": "launch",
+            "mainClass": "Prac.java2_4",
+            "projectName": "Bambol_7946399e"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - java2_2",
+            "request": "launch",
+            "mainClass": "Prac.java2_2",
+            "projectName": "Bambol_7946399e"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RockPaperScissors2",
+            "request": "launch",
+            "mainClass": "RockPaperScissors2",
+            "projectName": "Bambol_7946399e"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ArithmeticOperator<Bambol_7946399e>",
+            "request": "launch",
+            "mainClass": "ArithmeticOperator",
+            "projectName": "Bambol_7946399e"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-AssignmentIncDecOperator<Bambol_7946399e>",
+            "request": "launch",
+            "mainClass": "AssignmentIncDecOperator",
+            "projectName": "Bambol_7946399e"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BitOperator<Bambol_7946399e>",
+            "request": "launch",
+            "mainClass": "BitOperator",
+            "projectName": "Bambol_7946399e"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CheckTimeScanner<Bambol_7946399e>",
+            "request": "launch",
+            "mainClass": "CheckTimeScanner",
+            "projectName": "Bambol_7946399e"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CircleArea<Bambol_7946399e>",
+            "request": "launch",
+            "mainClass": "CircleArea",
+            "projectName": "Bambol_7946399e"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CoffeePrice<Bambol_7946399e>",
+            "request": "launch",
+            "mainClass": "CoffeePrice",
+            "projectName": "Bambol_7946399e"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Grading<Bambol_7946399e>",
+            "request": "launch",
+            "mainClass": "Grading",
+            "projectName": "Bambol_7946399e"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Hello2030<Bambol_7946399e>",
+            "request": "launch",
+            "mainClass": "Hello2030",
+            "projectName": "Bambol_7946399e"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Hi<Bambol_7946399e>",
+            "request": "launch",
+            "mainClass": "Hi",
+            "projectName": "Bambol_7946399e"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LogicalOperator<Bambol_7946399e>",
+            "request": "launch",
+            "mainClass": "LogicalOperator",
+            "projectName": "Bambol_7946399e"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MyInfoApp<Bambol_7946399e>",
+            "request": "launch",
+            "mainClass": "MyInfoApp",
+            "projectName": "Bambol_7946399e"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-NestedIf<Bambol_7946399e>",
+            "request": "launch",
+            "mainClass": "NestedIf",
+            "projectName": "Bambol_7946399e"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RockPaperScissors<Bambol_7946399e>",
+            "request": "launch",
+            "mainClass": "RockPaperScissors",
+            "projectName": "Bambol_7946399e"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ScannerEx<Bambol_7946399e>",
+            "request": "launch",
+            "mainClass": "ScannerEx",
+            "projectName": "Bambol_7946399e"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Sorry<Bambol_7946399e>",
+            "request": "launch",
+            "mainClass": "Sorry",
+            "projectName": "Bambol_7946399e"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TernaryOperator<Bambol_7946399e>",
+            "request": "launch",
+            "mainClass": "TernaryOperator",
+            "projectName": "Bambol_7946399e"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TypeConversion<Bambol_7946399e>",
+            "request": "launch",
+            "mainClass": "TypeConversion",
+            "projectName": "Bambol_7946399e"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Welcome<Bambol_7946399e>",
+            "request": "launch",
+            "mainClass": "Welcome",
+            "projectName": "Bambol_7946399e"
+        }
+    ]
+}
