@@ -16,9 +16,18 @@ public class Lotto2 {
 				num[i] = (int)(Math.random()*45)+1;
 				System.out.println("num["+i+"]="+num[i]);
 			}
-			for(int j=0; j<num.length; j++) {
+			bp1:for(int j=0; j<num.length; j++) {
 				for(int k=0; k<j; k++) {
-					System.out.println("j="+j+", k=" +k);
+					if(j == k) { continue; }
+					System.out.print("j="+j+":("+num[j]+"), ");
+					System.out.print("k="+k+":("+num[k]+"), ");
+					if(num[j] == num[k]) {
+						System.out.println("같다");
+						break bp1;
+					}else {
+						System.out.println("다르다");
+						check = false;
+					}
 				}
 			}
 		}while(check);

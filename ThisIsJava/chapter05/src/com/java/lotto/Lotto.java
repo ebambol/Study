@@ -16,8 +16,9 @@ public class Lotto {
 				}
 			}
 		}
+		System.out.print("당첨번호 : ");
 		//출력
-		for(int i=0; i<6; i++) {
+		for(int i=0; i<arr.length; i++) {
 			if(arr[i] == arr[arr.length-1]) {	//arr[i]가 arr[5] 일때
 				System.out.print(arr[i]);	// arr[i] 출력
 			}else {
