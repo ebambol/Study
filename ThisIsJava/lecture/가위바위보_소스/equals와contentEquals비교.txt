@@ -1,0 +1,26 @@
+참고하세요~~~~
+
+* equals()
+- String 객체 끼리 비교할때 사용.
+ 
+
+* contentEquals()
+- String 객체와 StringBuffer 객체의 문자열 비교
+- 그외 StringBuilder , Char Array 객체등
+
+예)-----------------------------------------------------------------
+public class StrMethod {
+    public static void main(String[] args) {
+        String a = "abc";
+        String b = "abc";
+        StringBuffer c = new StringBuffer("abc");
+
+        // str.quals() 메소드
+        System.out.println(a.equals(b));    // true
+        System.out.println(a.equals(c));    // false
+
+        // str.contentEquls() 메소드
+        System.out.println(a.contentEquals(b)); // true
+        System.out.println(a.contentEquals(c)); // true
+    }
+}
