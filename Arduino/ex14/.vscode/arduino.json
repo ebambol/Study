@@ -1,5 +1,0 @@
-{
-    "sketch": "ex14.ino",
-    "board": "arduino:avr:uno",
-    "port": "COM13"
-}
