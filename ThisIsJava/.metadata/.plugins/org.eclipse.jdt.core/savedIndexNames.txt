@@ -1,9 +1,0 @@
-INDEX VERSION 1.131+D:\win10\Bambol\Study\ThisIsJava\.metadata\.plugins\org.eclipse.jdt.core
-2578204313.index
-2250130128.index
-2007115701.index
-1089460284.index
-938010794.index
-3733671327.index
-2844556553.index
-3922113046.index
