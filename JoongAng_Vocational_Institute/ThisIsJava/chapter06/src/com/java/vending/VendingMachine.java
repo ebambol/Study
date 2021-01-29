@@ -32,7 +32,7 @@ public class VendingMachine {
 			//입력받기
 			System.out.print("선택>");
 			input = sc.nextInt();
-			if(input>3) {
+			if(!(input>=1 && input<=3)) {
 				System.out.println("다시입력");
 				continue;
 			}
@@ -56,7 +56,7 @@ public class VendingMachine {
 			}
 
 			//종료
-			System.out.print("더 뽑을래?(y/n) >");
+			System.out.print("더 뽑겠습니까? (y/n) >");
 			loopOut = sc.next();
 			if(loopOut.equals("n")||loopOut.equals("N")) {
 				break;

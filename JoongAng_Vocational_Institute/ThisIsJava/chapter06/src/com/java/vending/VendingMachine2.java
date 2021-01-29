@@ -29,7 +29,7 @@ public class VendingMachine2 {
 			System.out.print("선택>");
 			input = sc.nextInt();
 			
-			System.out.print("몇개?>");
+			System.out.print("개수>");
 			int input_num = sc.nextInt();
 			
 			//가격 계산
@@ -37,7 +37,7 @@ public class VendingMachine2 {
 			
 			
 			//종료
-			System.out.println("더 뽑을래? y/n");
+			System.out.println("더 뽑으시겠습니까 y/n");
 			loopOut = sc.next();
 			if(loopOut.equals("n")||loopOut.equals("N")) {
 				break;
@@ -61,10 +61,10 @@ public class VendingMachine2 {
 						System.out.print(moneyReturn[i]+ "원:" + namuji + " ");
 					}
 				}
-				System.out.println("음료수 나옴");
+				System.out.println("음료수 나옴, 가져가세요");
 			}
 		} else {
-			System.out.println("돈이 부족해");
+			System.out.println("돈이 부졳합니다.");
 		}
 	}
 
