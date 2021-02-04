@@ -1,6 +1,5 @@
 package verify.exam20;
 
-import java.io.ObjectInputStream.GetField;
 import java.util.Scanner;
 
 public class BankApplication {
@@ -84,11 +83,18 @@ public class BankApplication {
 		System.out.println("---------");
 		System.out.print("계좌번호: ");
 		String ano = scanner.next();
-		System.out.println("예금액 : ");
+		System.out.print("예금액 : ");
 		int balance = scanner.nextInt();
 		
 		Account account = findAccount(ano);
 		
+		if(account == null) {
+			System.out.println("계좌가 없습니다.");
+			return;
+		}
+		account.setBalance(account.getBalance() + balance);
+		System.out.println("입금 되었습니다.");
+		System.out.println("현재 금액 : " + account.getBalance());
 	}
 
 	//출금하기
@@ -96,7 +102,20 @@ public class BankApplication {
 		System.out.println("---------");
 		System.out.println("출금");
 		System.out.println("---------");
+		System.out.print("계좌번호: ");
+		String ano = scanner.next();
+		System.out.print("출금액 : ");
+		int balance = scanner.nextInt();
 		
+		Account account = findAccount(ano);
+		
+		if(account.getBalance() < balance) {
+			System.out.println("돈없음");
+		}
+		System.out.print("금액 : " +account.getBalance());
+		account.setBalance(account.getBalance() - balance);
+		System.out.println("에서 " + balance + "를 출금하시고 " + account.getBalance() + "가 남았습니다.");
+
 	}
 	
 	//Account 배열에서 ano와 동일한 Account 객체 찾기
@@ -105,7 +124,7 @@ public class BankApplication {
 		for(int i=0; i<accountArray.length; i++) {
 			if(accountArray[i]!=null) {
 				String dbac = accountArray[i].getAno();
-				if(dbac == ano) {
+				if(dbac.equals(ano)) {
 					result = accountArray[i];
 					break;
 				}
