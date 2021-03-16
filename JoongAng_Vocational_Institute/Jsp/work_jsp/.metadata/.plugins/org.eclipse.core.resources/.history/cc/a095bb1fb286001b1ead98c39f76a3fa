@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>JSP</title>
+  </head>
+  <body>
+    <h1>Welcome to JSP</h1>
+    JSP is Dynamic Web Page.
+    JSP is Java Sever Pages.
+  </body>
+</html>

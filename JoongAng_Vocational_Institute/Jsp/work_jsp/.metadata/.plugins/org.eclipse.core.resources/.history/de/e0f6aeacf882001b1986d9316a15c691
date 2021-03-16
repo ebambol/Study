@@ -1,0 +1,12 @@
+<%@page import="org.apache.naming.java.javaURLContextFactory"%>
+<html>
+  <head>
+    <title>Scripting Tag</title>
+  </head>
+  <body>
+  		Today's data :
+  	<%=
+  		new java.util.Data()
+  	%>
+  </body>
+</html>
