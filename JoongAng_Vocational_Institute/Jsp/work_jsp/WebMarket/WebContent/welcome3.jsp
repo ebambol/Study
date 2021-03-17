@@ -29,7 +29,7 @@
 			</div>
 		</div>
 		<footer class="container">
-			<p>&copy; &lt;WebMarket&gt; &quot; k&amp;kk &quot;</p>
+			<p>&copy; &lt;WebMarket&gt;</p>
 		</footer>
 	</body>
 </html>

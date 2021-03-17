@@ -5,17 +5,9 @@
 		<title>Welcome 1</title>
 	</head>
 	<body>
-		<nav class ="navbar navbar-expand navbar-dark bg-dark">
-			<div class="container">
-				<div class="navbar-header">
-					<a href="./welcome1.jsp" class="navbar-brand">welcome1</a>
-					<a href="./welcome2.jsp" class="navbar-brand">welcome2</a>
-					<a href="./welcome3.jsp" class="navbar-brand">welcome3</a>
-				</div>
-			</div>
-		</nav>
+	<%@ include file="menu.jsp" %>
 		<%!
-			String greeting = "웹쇼핑몰1에 오신것을 환영합니다.";
+			String greeting = "웹쇼핑몰1에 오신걸 환영합니다.";
 			String tagline = "Welcome 1 to Web Market!";
 		%>
 		<div class="jumbotron">
