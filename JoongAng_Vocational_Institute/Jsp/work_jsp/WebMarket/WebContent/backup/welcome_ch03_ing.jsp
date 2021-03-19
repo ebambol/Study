@@ -10,7 +10,13 @@
 <title>Welcome</title>
 </head>
 <body>
-	<%@ include file="menu.jsp" %>
+	<nav class="navbar navbar-expand navbar-dark bg-dark">
+		<div class="container">
+			<div class="navbar-header">
+				<a href="./welcome.jsp" class="navbar-brand">home</a>
+			</div>
+		</div>
+	</nav>
 	<%!String greeting = "웹쇼핑몰에 오신것을 환영합니다.";
 	String tagline = "Welcome to Web Market!";%>
 	<div class="jumbotron">
@@ -37,10 +43,12 @@
 			String ct = hour +":" + minute + ":" + second + " " + am_pm;
 			out.println("현재 접속 시간: " + ct + "\n");
 
-			//out.println("현재 접속 시간 : " + LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy년 MM월 dd일 a hh시 mm분 ss초")));
+			//out.println("현재 접속 시간 : " + LocalDateTime.now().format(DateTimeFormatter.ofPattern("hh시 mm분 ss초 a")));
 			%>
 		</div>
 	</div>
-	<%@ include file="footer.jsp" %>
+	<footer class="container">
+		<p>&copy; WebMarket</p>
+	</footer>
 </body>
 </html>

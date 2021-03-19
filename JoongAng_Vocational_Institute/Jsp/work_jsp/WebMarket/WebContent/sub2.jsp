@@ -11,7 +11,7 @@
 </head>
 <body>
 	<%@ include file="menu.jsp" %>
-	<%!String greeting = "웹쇼핑몰에 오신것을 환영합니다.";
+	<%!String greeting = "SUB2에 오신것을 환영합니다.";
 	String tagline = "Welcome to Web Market!";%>
 	<div class="jumbotron">
 		<div class="container">
