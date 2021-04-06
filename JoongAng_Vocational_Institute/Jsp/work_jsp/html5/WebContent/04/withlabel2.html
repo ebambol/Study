@@ -5,11 +5,8 @@
     <meta charset="utf-8">
     <title>label 태그 사용</title>
 		<style>
-			ul {
-				list-style:none;
-			}
-			li {
-				margin:20px;
+			.rdo li{
+				display: inline;
 			}
 		</style>
 </head>
@@ -26,12 +23,9 @@
 			<li>
 				<label><input name="cb3" type="checkbox" value="rd">독해</label>
 			</li>
-			<li>
-				<input type="button" value="전송">
-			</li>
 		</ul>
 		<h3>수강 과목(1과목만 선택 가능)</h3>
-		<ul>
+		<ul class="rdo">
 			<li>
 				<label><input type="radio" name="subject" value="eng">영어회화</label>
 			</li>
@@ -40,6 +34,9 @@
 			</li>
 			<li>				
 				<label><input type="radio" name="subject" value="jp">일어회화</label>
+			</li>
+			<li style="display: block;">
+				<input type="button" value="전송">
 			</li>
 		</ul>
 	</form>
