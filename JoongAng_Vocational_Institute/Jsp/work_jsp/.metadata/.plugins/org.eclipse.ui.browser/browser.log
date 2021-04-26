@@ -4,3 +4,8 @@
 
 3월 17, 2021 15:26:08.49 NEW SESSION
 3월 17, 2021 15:26:08.49 [Parent 9996, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+4월 26, 2021 10:25:39.81 NEW SESSION
+4월 26, 2021 10:25:39.81 [7932:1196:0426/102539.811:ERROR:device_event_log_impl.cc(214)] [10:25:39.809] FIDO: webauthn_api.cc:54 Windows WebAuthn API failed to load
+4월 26, 2021 10:26:16.30 [7512:7524:0426/102616.302:ERROR:device_event_log_impl.cc(214)] [10:26:16.299] FIDO: webauthn_api.cc:54 Windows WebAuthn API failed to load
+4월 26, 2021 10:26:29.26 [7596:2560:0426/102629.260:ERROR:device_event_log_impl.cc(214)] [10:26:29.257] FIDO: webauthn_api.cc:54 Windows WebAuthn API failed to load
