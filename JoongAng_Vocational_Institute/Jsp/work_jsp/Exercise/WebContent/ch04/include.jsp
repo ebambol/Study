@@ -11,6 +11,5 @@
 	<jsp:include page="include_data.jsp" flush="false">
 		<jsp:param value="5" name="num"/>
 	</jsp:include>
-
 </body>
 </html>

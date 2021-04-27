@@ -9,3 +9,6 @@
 4월 26, 2021 10:25:39.81 [7932:1196:0426/102539.811:ERROR:device_event_log_impl.cc(214)] [10:25:39.809] FIDO: webauthn_api.cc:54 Windows WebAuthn API failed to load
 4월 26, 2021 10:26:16.30 [7512:7524:0426/102616.302:ERROR:device_event_log_impl.cc(214)] [10:26:16.299] FIDO: webauthn_api.cc:54 Windows WebAuthn API failed to load
 4월 26, 2021 10:26:29.26 [7596:2560:0426/102629.260:ERROR:device_event_log_impl.cc(214)] [10:26:29.257] FIDO: webauthn_api.cc:54 Windows WebAuthn API failed to load
+
+4월 27, 2021 13:08:20.20 NEW SESSION
+4월 27, 2021 13:08:20.20 [11808:8184:0427/130820.200:ERROR:device_event_log_impl.cc(214)] [13:08:20.195] FIDO: webauthn_api.cc:54 Windows WebAuthn API failed to load
