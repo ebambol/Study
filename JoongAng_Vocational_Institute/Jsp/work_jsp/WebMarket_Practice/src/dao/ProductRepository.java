@@ -37,7 +37,7 @@ public class ProductRepository {
 	public ArrayList<Product> getAllProducts() {
 		return listOfProducts;
 	}
-	
+	//상품 상세정보 가져오는 메소드
 	public Product getProductById(String productId) {
 		Product productById = null;
 		
