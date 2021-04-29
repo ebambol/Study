@@ -153,7 +153,11 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
+<<<<<<< HEAD:JoongAng_Vocational_Institute/Jsp/work_jsp/Servers/Tomcat v9.0 Server at localhost-config/server.xml
       <Context docBase="WebMarket_Practice" path="/WebMarket_practice" reloadable="true" source="org.eclipse.jst.jee.server:WebMarket_Practice"/><Context docBase="WebMarket" path="/WebMarket" reloadable="true" source="org.eclipse.jst.jee.server:WebMarket"/><Context docBase="Exercise2" path="/Exercise2" reloadable="true" source="org.eclipse.jst.jee.server:Exercise2"/><Context docBase="BookMarket" path="/BookMarket" reloadable="true" source="org.eclipse.jst.jee.server:BookMarket"/><Context docBase="JSPBook_practice" path="/JSPBook_practice" reloadable="true" source="org.eclipse.jst.jee.server:JSPBook_practice"/><Context docBase="JSPBook" path="/JSPBook" reloadable="true" source="org.eclipse.jst.jee.server:JSPBook"/></Host>
+=======
+      <Context docBase="WebMarket" path="/WebMarket" reloadable="true" source="org.eclipse.jst.jee.server:WebMarket"/><Context docBase="WebMarket_practice" path="/WebMarket_practice" reloadable="true" source="org.eclipse.jst.jee.server:WebMarket_practice"/><Context docBase="Exercise" path="/Exercise" reloadable="true" source="org.eclipse.jst.jee.server:Exercise"/><Context docBase="JSPBook" path="/JSPBook" reloadable="true" source="org.eclipse.jst.jee.server:JSPBook"/></Host>
+>>>>>>> 90aaea9c070207ba597e02a4498752224a06be45:Servers/Tomcat v9.0 Server at localhost-config/server.xml
     </Engine>
   </Service>
 </Server>

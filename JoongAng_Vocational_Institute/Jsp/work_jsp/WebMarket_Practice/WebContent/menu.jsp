@@ -4,7 +4,8 @@
 	<div class="container">
 		<div class="navbar-header">
 			<a href="./welcome.jsp" class="navbar-brand">Home</a>
-			<a href="./products.jsp" class="navbar-brand">상품목록</a>
+			<a href="./products.jsp" class="navbar-brand">상품 목록</a>
+			<a href="./addProduct.jsp" class="navbar-brand">상품 등록</a>
 		</div>
 	</div>
 </nav>
