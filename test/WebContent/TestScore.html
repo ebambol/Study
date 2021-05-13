@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="./script.js"></script>
+</head>
+<body>
+    <h1>학생 성적 이름</h1>
+    <form name="score" action="./TestScore.jsp" method="post">
+        <div>
+		        학생이름1: <input type="text" name="name1" id="name1">
+		        국어성적1 : <input type="text" name="kor1" id="kor1"> 
+		        영어성적1: <input type="text" name="eng1" id="eng1">
+		        수학성적1: <input type="text" name="math1" id="math1">
+        </div>
+        <div>
+		        학생이름2: <input type="text" name="name2" id="name2">
+		        국어성적2 : <input type="text" name="kor2" id="kor2"> 
+		        영어성적2: <input type="text" name="eng2" id="eng2">
+		        수학성적2: <input type="text" name="math2" id="math2">
+        </div>
+        <div>
+		        학생이름3: <input type="text" name="name3" id="name3">
+		        국어성적3 : <input type="text" name="kor3" id="kor3"> 
+		        영어성적3: <input type="text" name="eng3" id="eng3">
+		        수학성적3: <input type="text" name="math3" id="math3">
+        </div>
+        <input type="button" value="전송" onclick="checkForm()">
+    </form>
+</body>
+</html>
